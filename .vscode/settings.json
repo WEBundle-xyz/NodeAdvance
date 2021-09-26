@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.renderIndentGuides": true,
+    "prettier.tabWidth": 2,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background": "#594666"
+    }
+}

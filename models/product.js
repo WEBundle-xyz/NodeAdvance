@@ -3,6 +3,8 @@
 
 //No longer need the above bc I`m fetching data from a data base.
 
+const db = require('../util/database');
+
 const Cart = require('./cart');
 
 module.exports = class Product {
@@ -15,7 +17,11 @@ module.exports = class Product {
 
   save() {}
 
-  static fetchAll() {}
+  static deleteById(id) {}
 
-  static findById(id, cb) {}
+  static fetchAll() {
+    return db.execute('SELECT * FROM products')
+  }
+
+  static findById(id) {}
 };

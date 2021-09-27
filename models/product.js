@@ -1,21 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 
-const p = path.join(
-  path.dirname(process.mainModule.filename),
-  'data',
-  'products.json'
-);
+//No longer need the above bc I`m fetching data from a data base.
 
-const getProductsFromFile = cb => {
-  fs.readFile(p, (err, fileContent) => {
-    if (err) {
-      cb([]);
-    } else {
-      cb(JSON.parse(fileContent));
-    }
-  });
-};
+const Cart = require('./cart');
 
 module.exports = class Product {
   constructor(title, imageUrl, description, price) {
@@ -25,24 +13,9 @@ module.exports = class Product {
     this.price = price;
   }
 
-  save() {
-    this.id = Math.random().toString();
-    getProductsFromFile(products => {
-      products.push(this);
-      fs.writeFile(p, JSON.stringify(products), err => {
-        console.log(err);
-      });
-    });
-  }
+  save() {}
 
-  static fetchAll(cb) {
-    getProductsFromFile(cb);
-  }
+  static fetchAll() {}
 
-  static findById(id, cb) {
-    getProductsFromFile(products => {
-      const product = products.find(p => p.id === id);
-      cb(product);
-    });
-  }
+  static findById(id, cb) {}
 };

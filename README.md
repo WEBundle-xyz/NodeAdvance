@@ -24,7 +24,7 @@
 
 [10 - Delete a product ](../../tree/5b3d4f7bbde3fb82f0970d1c6f496c324cd41c13/)
 
-[11 - Empty ](../../tree//)
+[11 -  Reseting the cart and fetching ](../../tree/f13624f2636192aa5e2995d84b1113c93c8fd351/)
 
 [12 - Empty ](../../tree//)
 

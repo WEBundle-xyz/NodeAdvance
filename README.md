@@ -22,6 +22,18 @@
 
 [9 - Edit product ](../../tree/065975563b1e52142707a5c053100b0699a6381a/)
 
-[10 - Empty ](../../tree//)
+[10 - Delete a product ](../../tree/5b3d4f7bbde3fb82f0970d1c6f496c324cd41c13/)
 
 [11 - Empty ](../../tree//)
+
+[12 - Empty ](../../tree//)
+
+[13 - Empty ](../../tree//)
+
+[14 - Empty ](../../tree//)
+
+[15 - Empty ](../../tree//)
+
+[16 - Empty ](../../tree//)
+
+[17 - Empty ](../../tree//)

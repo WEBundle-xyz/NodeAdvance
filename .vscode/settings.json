@@ -1,9 +1,16 @@
 {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.renderIndentGuides": true,
-    "prettier.tabWidth": 2,
-    "workbench.colorCustomizations": {
-        "editorIndentGuide.background": "#594666"
-    }
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderIndentGuides": true,
+  "javascript.suggest.autoImports": true,
+
+  "prettier.tabWidth": 2,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.background": "#594666"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "javascript.suggestionActions.enabled": true
 }

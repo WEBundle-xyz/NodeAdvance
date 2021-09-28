@@ -14,7 +14,7 @@
 
 [5 - Adding and Fetching products ](../../tree/6822bb0b3dd24dd86af3bdb892421bd0f83c5608/)
 
-[6 - Empty ](../../tree//)
+[6 - Installed and connected Sequelize ](../../tree/cb2ac59e01409cdca4b59a0d8e2a515d9494ea31/)
 
 [7 - Empty ](../../tree//)
 

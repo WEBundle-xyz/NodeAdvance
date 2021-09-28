@@ -20,7 +20,7 @@
 
 [8 - Getting a single product ](../../tree/eb60ec6580c01bceb0d4cf1cd5d4a4461b869ee4/)
 
-[9 - Empty ](../../tree//)
+[9 - Edit product ](../../tree/065975563b1e52142707a5c053100b0699a6381a/)
 
 [10 - Empty ](../../tree//)
 

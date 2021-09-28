@@ -1,6 +1,6 @@
 ### Express.js
 
-#### Main_Shopping_Cart_Project 
+#### Main_Shopping_Cart_Project
 
 #### 2021
 
@@ -16,9 +16,9 @@
 
 [6 - Installed and connected Sequelize ](../../tree/cb2ac59e01409cdca4b59a0d8e2a515d9494ea31/)
 
-[7 -  Added data into the database using sequelize ](../../tree/c238f2ab184fc08f84fdb7166d9b5777911386f9/)
+[7 - Added data into the database using sequelize ](../../tree/c238f2ab184fc08f84fdb7166d9b5777911386f9/)
 
-[8 - Empty ](../../tree//)
+[8 - Getting a single product ](../../tree/eb60ec6580c01bceb0d4cf1cd5d4a4461b869ee4/)
 
 [9 - Empty ](../../tree//)
 

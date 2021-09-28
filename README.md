@@ -16,7 +16,7 @@
 
 [6 - Installed and connected Sequelize ](../../tree/cb2ac59e01409cdca4b59a0d8e2a515d9494ea31/)
 
-[7 - Empty ](../../tree//)
+[7 -  Added data into the database using sequelize ](../../tree/c238f2ab184fc08f84fdb7166d9b5777911386f9/)
 
 [8 - Empty ](../../tree//)
 

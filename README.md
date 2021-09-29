@@ -26,7 +26,7 @@
 
 [11 -  Reseting the cart and fetching ](../../tree/f13624f2636192aa5e2995d84b1113c93c8fd351/)
 
-[12 - Empty ](../../tree//)
+[12 - Sequelize --> Finishe ](../../tree/6f258c06a79659333c5b89b0b1e4bd1cf0ac27f2/)
 
 [13 - Empty ](../../tree//)
 
@@ -37,3 +37,23 @@
 [16 - Empty ](../../tree//)
 
 [17 - Empty ](../../tree//)
+
+[18 - Empty ](../../tree//)
+
+[19 - Empty ](../../tree//)
+
+[20 - Empty ](../../tree//)
+
+[21 - Empty ](../../tree//)
+
+[22 - Empty ](../../tree//)
+
+[23 - Empty ](../../tree//)
+
+[24 - Empty ](../../tree//)
+
+[25 - Empty ](../../tree//)
+
+[26 - Empty ](../../tree//)
+
+[27 - Empty ](../../tree//)

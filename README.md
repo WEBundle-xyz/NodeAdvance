@@ -26,9 +26,9 @@
 
 [11 -  Reseting the cart and fetching ](../../tree/f13624f2636192aa5e2995d84b1113c93c8fd351/)
 
-[12 - Sequelize --> Finishe ](../../tree/6f258c06a79659333c5b89b0b1e4bd1cf0ac27f2/)
+[12 - Sequelize --> Finished ](../../tree/6f258c06a79659333c5b89b0b1e4bd1cf0ac27f2/)
 
-[13 - Empty ](../../tree//)
+[13 - MongoDB - Project Setup ](../../tree/34a139ea111373e1fbfae1a1d2ee8b2a301d0212/)
 
 [14 - Empty ](../../tree//)
 

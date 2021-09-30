@@ -34,7 +34,7 @@
 
 [15 - Updating Products ](../../tree/6ad34825bfff1e3e7eb6ddea2724ed00a36f495d/)
 
-[16 - Empty ](../../tree//)
+[16 - Storing the user in the database ](../../tree/4e5eebc0c6f931db054c5cf2f0eae7ee4afffe28/)
 
 [17 - Empty ](../../tree//)
 

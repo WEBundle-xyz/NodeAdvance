@@ -36,7 +36,7 @@
 
 [16 - Storing the user in the database ](../../tree/4e5eebc0c6f931db054c5cf2f0eae7ee4afffe28/)
 
-[17 - Empty ](../../tree//)
+[17 - Deleting cart items ](../../tree/d6c860b7f4f5e41ee7b271793bb4d1581657918d/)
 
 [18 - Empty ](../../tree//)
 

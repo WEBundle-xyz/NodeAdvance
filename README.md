@@ -48,7 +48,7 @@
 
 [22 - Getting and displaying orders ](../../tree/b19b9855b419d0b8f519f100546672934327a718/)
 
-[23 - Cookies - Project Setup ](../../tree/6f079aa40da338d48be9a235b3471f6634a39560/)
+[23 - Sessions and Cookies ](../../tree/78e4df337d3a2ec64160aa3b6e507e35f6ce4b1b/)
 
 [24 - Empty ](../../tree//)
 

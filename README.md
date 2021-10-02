@@ -50,7 +50,7 @@
 
 [23 - Sessions and Cookies ](../../tree/78e4df337d3a2ec64160aa3b6e507e35f6ce4b1b/)
 
-[24 - Empty ](../../tree//)
+[24 - Authentication - Project Setup ](../../tree/7b6d18e82145abdcd4e31cf44ce3154ad2c6bc41/)
 
 [25 - Empty ](../../tree//)
 

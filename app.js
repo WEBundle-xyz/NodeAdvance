@@ -14,43 +14,45 @@ app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
+const authRoutes = require('./routes/auth');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
   User.findById('6156553b6d9c304afcd9b997')
-    .then(user => {
+    .then((user) => {
       req.user = user;
       next();
     })
-    .catch(err => console.log(err));
+    .catch((err) => console.log(err));
 });
 
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
+app.use(authRoutes);
 
 app.use(errorController.get404);
 
 mongoose
-.connect(
-  'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/shop'
-)
-  .then(result => {
-    User.findOne().then(user => {
+  .connect(
+    'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/shop'
+  )
+  .then((result) => {
+    User.findOne().then((user) => {
       if (!user) {
         const user = new User({
           name: 'Max',
           email: 'max@test.com',
           cart: {
-            items: []
-          }
+            items: [],
+          },
         });
         user.save();
       }
     });
     app.listen(3000);
   })
-  .catch(err => {
+  .catch((err) => {
     console.log(err);
   });

@@ -24,13 +24,13 @@
 
 [10 - Delete a product ](../../tree/5b3d4f7bbde3fb82f0970d1c6f496c324cd41c13/)
 
-[11 -  Reseting the cart and fetching ](../../tree/f13624f2636192aa5e2995d84b1113c93c8fd351/)
+[11 - Reseting the cart and fetching ](../../tree/f13624f2636192aa5e2995d84b1113c93c8fd351/)
 
 [12 - Sequelize --> Finished ](../../tree/6f258c06a79659333c5b89b0b1e4bd1cf0ac27f2/)
 
 [13 - MongoDB - Project Setup ](../../tree/34a139ea111373e1fbfae1a1d2ee8b2a301d0212/)
 
-[14 -  Connecting the database ](../../tree/565a7ca4229b3edd5ff3fb77acd009b937295da9/)
+[14 - Connecting the database ](../../tree/565a7ca4229b3edd5ff3fb77acd009b937295da9/)
 
 [15 - Updating Products ](../../tree/6ad34825bfff1e3e7eb6ddea2724ed00a36f495d/)
 
@@ -54,7 +54,7 @@
 
 [25 - Encrypted signup password ](../../tree/b38e86047eab0edd72975501cd163b3ca6866535/)
 
-[26 - Empty ](../../tree//)
+[26 - Adding SignIn functionality ](../../tree/3566d86b5d984a8b95a1c645af895e1d94d21cc0/)
 
 [27 - Empty ](../../tree//)
 

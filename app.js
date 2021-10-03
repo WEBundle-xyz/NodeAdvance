@@ -11,11 +11,11 @@ const User = require('./models/user');
 
 const MONGODB_URI =
   'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/shop';
-
+  
 const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
-  collection: 'sessions',
+  collection: 'sessions'
 });
 
 app.set('view engine', 'ejs');
@@ -32,7 +32,7 @@ app.use(
     secret: 'my secret',
     resave: false,
     saveUninitialized: false,
-    store: store,
+    store: store
   })
 );
 
@@ -41,11 +41,11 @@ app.use((req, res, next) => {
     return next();
   }
   User.findById(req.session.user._id)
-    .then((user) => {
+    .then(user => {
       req.user = user;
       next();
     })
-    .catch((err) => console.log(err));
+    .catch(err => console.log(err));
 });
 
 app.use('/admin', adminRoutes);
@@ -56,9 +56,9 @@ app.use(errorController.get404);
 
 mongoose
   .connect(MONGODB_URI)
-  .then((result) => {
+  .then(result => {
     app.listen(3000);
   })
-  .catch((err) => {
+  .catch(err => {
     console.log(err);
   });

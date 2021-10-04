@@ -56,7 +56,7 @@
 
 [26 - Adding SignIn functionality ](../../tree/3566d86b5d984a8b95a1c645af895e1d94d21cc0/)
 
-[27 - Empty ](../../tree//)
+[27 - Implementing csrf_token ](../../tree/f1a98ad372e6f7570deb3870f1cb6f1a5a9aff5c/)
 
 [28 - Empty ](../../tree//)
 

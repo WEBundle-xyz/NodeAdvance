@@ -13,7 +13,7 @@ const User = require('./models/user');
 
 const MONGODB_URI =
   'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/shop';
-  
+ 
 const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,

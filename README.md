@@ -58,7 +58,7 @@
 
 [27 - Implementing csrf_token ](../../tree/f1a98ad372e6f7570deb3870f1cb6f1a5a9aff5c/)
 
-[28 - Empty ](../../tree//)
+[28 - Sending emails ](../../tree/d0a9e5e0d4c1918d01c3aca8b083b57ba55a7391/)
 
 [29 - Empty ](../../tree//)
 

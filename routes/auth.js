@@ -30,7 +30,7 @@ router.post(
   [
     check('email')
       .isEmail()
-      .withMessage('Please enter a valid email.')
+      .withMessage('Please enter a valid e-mail.')
       .custom((value, { req }) => {
         // if (value === 'test@test.com') {
         //   throw new Error('This email address if forbidden.');
@@ -39,7 +39,7 @@ router.post(
         return User.findOne({ email: value }).then(userDoc => {
           if (userDoc) {
             return Promise.reject(
-              'E-Mail exists already, please pick a different one.'
+              'E-mail already exists, please choose a different one.'
             );
           }
         });

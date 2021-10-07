@@ -70,7 +70,7 @@
 
 [33 - Validating adding product ](../../tree/bb4e3ec21d8c8a4573e170af54e21fac324fba9f/)
 
-[34 - Empty ](../../tree//)
+[34 - Error handling ](../../tree/e84b3db3fdcc0db12d22a7ce6c6fd69d42354c14/)
 
 [35 - Empty ](../../tree//)
 

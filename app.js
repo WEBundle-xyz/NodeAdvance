@@ -7,17 +7,18 @@ const session = require('express-session');
 const MongoDBStore = require('connect-mongodb-session')(session);
 const csrf = require('csurf');
 const flash = require('connect-flash');
+const multer = require('multer');
 
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
   'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/shop';
- 
+
 const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
-  collection: 'sessions'
+  collection: 'sessions',
 });
 const csrfProtection = csrf();
 
@@ -29,13 +30,14 @@ const shopRoutes = require('./routes/shop');
 const authRoutes = require('./routes/auth');
 
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(multer({dest: 'images'}).single('image'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
   session({
     secret: 'my secret',
     resave: false,
     saveUninitialized: false,
-    store: store
+    store: store,
   })
 );
 app.use(csrfProtection);
@@ -53,14 +55,14 @@ app.use((req, res, next) => {
     return next();
   }
   User.findById(req.session.user._id)
-    .then(user => {
+    .then((user) => {
       if (!user) {
         return next();
       }
       req.user = user;
       next();
     })
-    .catch(err => {
+    .catch((err) => {
       next(new Error(err));
     });
 });
@@ -79,15 +81,15 @@ app.use((error, req, res, next) => {
   res.status(500).render('500', {
     pageTitle: 'Error!',
     path: '/500',
-    isAuthenticated: req.session.isLoggedIn
+    isAuthenticated: req.session.isLoggedIn,
   });
 });
 
 mongoose
   .connect(MONGODB_URI)
-  .then(result => {
+  .then((result) => {
     app.listen(3000);
   })
-  .catch(err => {
+  .catch((err) => {
     console.log(err);
   });

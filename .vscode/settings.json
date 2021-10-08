@@ -12,5 +12,8 @@
     "source.organizeImports": true,
     "source.fixAll": true
   },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
   "javascript.suggestionActions.enabled": true
 }

@@ -82,7 +82,7 @@
 
 [39 - Async Requests ](../../tree/37394951f84af4d0652440d063c1e4cb7f8357a6/)
 
-[40 - Empty ](../../tree//)
+[40 - Before adding Stripe ](../../tree/7a53c5f245477ca3a63f4cc588ef8cdf98baca8b/)
 
 [41 - Empty ](../../tree//)
 

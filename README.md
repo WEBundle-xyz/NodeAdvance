@@ -84,7 +84,7 @@
 
 [40 - Before adding Stripe ](../../tree/7a53c5f245477ca3a63f4cc588ef8cdf98baca8b/)
 
-[41 - Empty ](../../tree//)
+[41 - Implementing Stripe - Online Payments ](../../tree/13dbcb874923526d395ebb5e6112746dd7152939/)
 
 [42 - Empty ](../../tree//)
 
